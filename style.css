@@ -1,0 +1,87 @@
+/*website by DB*/
+
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+
+  padding: 20px;
+  background-image: url(images/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #390969;
+  font-family: var(--body-font);
+    -webkit-font-smoothing: antialiased;
+  font-size: 30px;
+  margin: 50px;
+  text-align: center;
+
+}
+
+.banner {
+  background-image: url(images/banner.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+  .title {
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+img {
+ height:200px;
+ margin:20px;
+}
+
+header, section, footer {
+  padding: 30px;
+  margin: 30px;
+  background-color: #91B2C7;
+  border: 2px purple solid;
+}
+
+ h1 {
+   color: black;
+   font-family: var(--body-font);
+     -webkit-font-smoothing: antialiased;
+   font-size: 55px;
+   line-height: 0.5;
+   text-align: center;
+ }
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h1, h2, h3 {
+font-weight: normal;
+font-style: italic;
+text-align: center;
+margin-bottom: 20px;
+}
+
+p {
+  margin:15px 0;
+}
+
+ul, ol {
+  margin: 15px 0;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
